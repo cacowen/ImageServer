@@ -1,3 +1,5 @@
+https://github.com/aws/aws-extensions-for-dotnet-cli/discussions/364
+
 How can i deploy my .Net 8 AOT AWS Lambda project when the project has a dependency?
 
 Repo: https://github.com/cacowen/ImageServer
