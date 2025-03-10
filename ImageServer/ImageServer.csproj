@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<AWSProjectType>Lambda</AWSProjectType>
+		<PublishAot>true</PublishAot>
+		<StripSymbols>true</StripSymbols>
+		<TrimMode>partial</TrimMode>
+		<AWSSuppressLambdaAnnotationsTelemetry>true</AWSSuppressLambdaAnnotationsTelemetry>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Amazon.Lambda.Annotations" />
+	  <PackageReference Include="Amazon.Lambda.APIGatewayEvents" />
+	  <PackageReference Include="Amazon.Lambda.Core" />
+	  <PackageReference Include="Amazon.Lambda.RuntimeSupport" />
+	  <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+	  <PackageReference Include="SnapshotRestore.Registry" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\LambdaHelpers\LambdaHelpers.csproj" />
+	</ItemGroup>
+</Project>

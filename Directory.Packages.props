@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Amazon.Lambda.Annotations" Version="1.6.3" />
+    <PackageVersion Include="Amazon.Lambda.APIGatewayEvents" Version="2.7.1" />
+    <PackageVersion Include="Amazon.Lambda.Core" Version="2.5.0" />
+    <PackageVersion Include="Amazon.Lambda.RuntimeSupport" Version="1.12.3" />
+    <PackageVersion Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.4.4" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageVersion Include="SnapshotRestore.Registry" Version="1.0.1" />
+  </ItemGroup>
+</Project>
